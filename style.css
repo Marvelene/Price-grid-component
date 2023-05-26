@@ -74,7 +74,7 @@ button {
 }
 button:hover {
   cursor: pointer;
-  background-color: D4C846;
+  background-color: #D4C846;
   transform: scale(1.02);
 }
 
