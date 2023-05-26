@@ -1,0 +1,117 @@
+html {
+  box-sizing: border-box;
+  font-family: "Karla";
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 20px;
+}
+
+#card {
+  width: 600px;
+  height: 450px;
+  box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#top-section {
+  width: 100%;
+  height: 44%;
+  padding: 25px;
+  margin-left: 10px;
+}
+
+#bottom-section {
+  display: flex;
+  width: 100%;
+  height: 60%;
+  color: white;
+}
+#bottom-left {
+  width: 50%;
+  height: 100%;
+  background-color: #2bb3b0;
+  padding: 25px;
+}
+#bottom-right {
+  width: 50%;
+  height: 100%;
+  background-color: #31ccc9;
+  padding: 25px;
+}
+
+#top-section h2 {
+  color: #76b828;
+}
+#top-section h4 {
+  color: #faed53;
+}
+#top-section p {
+  color: #98a6bd;
+  line-height: 40%;
+}
+
+button {
+  color: white;
+  background-color: #faed53;
+  border: none;
+  padding: 14px;
+  width: 100%;
+  border-radius: 5px;
+  font-weight: 800;
+  margin-top: 10px;
+  box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.35);
+}
+button: hover {
+  cursor: pointer;
+  background-color: D4C846;
+  transform: scale(1.02);
+}
+
+#price-flex {
+  display: flex;
+}
+#price {
+  font-weight: 900;
+  font-size: 1.7rem;
+}
+#price-freq {
+  position: relative;
+  padding: 7px;
+  opacity: 0.6;
+  font-size: 0.9rem;
+  margin-left: 3px;
+}
+
+#bottom-left p {
+  margin-top: 6px;
+  font-size: 0.9rem;
+}
+#bottom-left h4 {
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+
+#bottom-right h4 {
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+#bottom-right ul {
+  padding: 0;
+  list-style: none;
+  opacity: 0.6;
+  font-size: 0.9rem;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: #384166; }
